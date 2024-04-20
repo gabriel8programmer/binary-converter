@@ -45,4 +45,4 @@ function handleBinaryInput(e) {
   }, 3000);
 }
 
-binaryInput.addEventListener("keyup", handleBinaryInput);
+binaryInput.addEventListener("input", handleBinaryInput);
